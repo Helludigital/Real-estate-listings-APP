@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Expo App Template",
+    "slug": "expo-app-template",
+    "version": "1.0.0",
+    "scheme": "app-template",
+    "platforms": ["ios", "android", "web"],
+    "plugins": ["expo-router"],
+    "experiments": { "typedRoutes": true }
+  }
+}
