@@ -74,9 +74,10 @@ const StatsCard = ({
 const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
+    paddingVertical: spacing.sm,
   },
   value: {
-    ...typography.title,
+    ...typography.h2,
     textAlign: 'center',
     marginBottom: spacing.xs,
   },

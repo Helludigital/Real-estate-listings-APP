@@ -23,7 +23,21 @@ export default function TabsLayout() {
         name="explore"
         options={{
           title: 'Explore',
-          tabBarIcon: ({ color, size }) => <MaterialIcons name="explore" color={color} size={size} />,
+          tabBarIcon: ({ color, size }) => <MaterialIcons name="map" color={color} size={size} />,
+        }}
+      />
+      <Tabs.Screen
+        name="saved"
+        options={{
+          title: 'Saved',
+          tabBarIcon: ({ color, size }) => <MaterialIcons name="favorite-border" color={color} size={size} />,
+        }}
+      />
+      <Tabs.Screen
+        name="profile"
+        options={{
+          title: 'Profile',
+          tabBarIcon: ({ color, size }) => <MaterialIcons name="person-outline" color={color} size={size} />,
         }}
       />
     </Tabs>
